@@ -16,7 +16,8 @@ Using your parameters it will calculate:
   
 A list of all dates when investments take place along with historical stock price, count of shares bought, cummulative invested funds and running portfolio value is provided in tabular form and a line chart visualization is generated. 
 
-Here are some examples of what the output looks like:	
+
+### Examples of what the output looks like	
 
 DCA-ing Apple - terminal output (white line cut edited by me to fit, original displays all lines)
 ![Picture1](https://github.com/DmitrijSolanic/Portfolio/blob/main/Missed_Opportunity_Calculator/missed_opportunity_calculator_example1.jpg)
