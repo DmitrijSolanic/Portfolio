@@ -15,12 +15,16 @@ Using your parameters it will calculate:
 - what your profit/loss would be on the investment.
   
 A list of all dates when investments take place along with historical stock price, count of shares bought, running invested funds and running portfolio value is provided.
+
 Here are some examples of what using the output of the calculator might look like:	
 
+DCA-ing Apple terminal output
 ![Picture1](https://github.com/DmitrijSolanic/Portfolio/blob/main/Missed_Opportunity_Calculator/missed_opportunity_calculator_example1.jpg)
 
+DCA-ing Alibaba terminal output
 ![Picture2](https://github.com/DmitrijSolanic/Portfolio/blob/main/Missed_Opportunity_Calculator/missed_opportunity_calculator_example2.JPG)
 
+DCA-ing Tesla figure output
 ![Picture3](https://github.com/DmitrijSolanic/Portfolio/blob/main/Missed_Opportunity_Calculator/missed_opportunity_calculator_example3_viz.JPG)
 
 
