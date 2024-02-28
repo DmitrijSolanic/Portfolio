@@ -17,10 +17,15 @@ Using your parameters it will calculate:
 A list of all dates when investments take place along with historical stock price, count of shares bought, running invested funds and running portfolio value is provided.
 Here are some examples of what using the output of the calculator might look like
 
-[/assets/images/](https://github.com/DmitrijSolanic/Missed_Opportunity_Calculator)
-https://github.com/DmitrijSolanic/Missed_Opportunity_Calculator/missed_opportunity_calculator_example1.JPG
-/Missed_Opportunity_Calculator/missed_opportunity_calculator_example2.JPG
-/Missed_Opportunity_Calculator/missed_opportunity_calculator_example3_viz.JPG
+[Picture1](https://github.com/DmitrijSolanic/Portfolio/tree/main/Missed_Opportunity_Calculator/missed_opportunity_calculator_example1.JPG)
+
+[Picture3](https://github.com/DmitrijSolanic/Portfolio/tree/main/Missed_Opportunity_Calculator/missed_opportunity_calculator_example2.JPG)
+
+[Picture3](https://github.com/DmitrijSolanic/Portfolio/tree/main/Missed_Opportunity_Calculator/missed_opportunity_calculator_example3_viz.JPG)
+
+/Portfolio/tree/main/Missed_Opportunity_Calculator/missed_opportunity_calculator_example1.JPG
+/Portfolio/tree/main/Missed_Opportunity_Calculator/missed_opportunity_calculator_example2.JPG
+/Portfolio/tree/main/Missed_Opportunity_Calculator/missed_opportunity_calculator_example3_viz.JPG
 
 
 ### How to use the calculator?
