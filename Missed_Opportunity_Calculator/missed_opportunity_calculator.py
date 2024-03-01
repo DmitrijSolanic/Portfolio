@@ -58,7 +58,7 @@ if frequency == 'w':
     week_start_df = week_start_slice.copy()
     # Reformatting for better visual clarity
     week_start_df['Date'] = week_start_df['Date'].dt.strftime('%Y-%m-%d')
-    week_start_df['Closing price'] = week_start_df['Close'].round(2)
+    week_start_df['Closing_price'] = week_start_df['Close'].round(2)
     week_start_df['Stock_bought'] = week_start_df['Stock_bought'].round(2)
     chosen_df = week_start_df
     basis = 'weekly'
