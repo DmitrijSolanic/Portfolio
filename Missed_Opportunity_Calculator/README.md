@@ -43,6 +43,10 @@ In cases when these are not trading days for a given asset, data from the closes
 4. **Date** of your first contribution is either start date (if it coincides with starting day of chosen frequency) or the starting day of subsequent week/month/year.
 
 
+### Wanna see it in action, but you unable to deal with Python?
+
+All .exe enthusiasts can simply download the .zip folder, unpack it and then run the .exe file from \dist\missed_opportunity_calculator\ folder. Runs slower, but no Python or pip installs needed. 
+
 ### Disclaimer
 
 Provided for informational/educational purposes only and should not be construed as investment advice . Past performance may not be indicative of future results. Always consult your Financial Adviser before any decision. 
