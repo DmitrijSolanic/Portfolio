@@ -459,6 +459,8 @@ FROM (
 );
 
 
+-- 15 YEAR VERSION --	
+
 SELECT  "Date"
 , "Close"
 , yoy_1
@@ -567,3 +569,308 @@ SELECT  "Date"
 , real_yoy_14y_profit_days_in_row
 , real_yoy_15y_profit_days_in_row
 FROM  inflation_adjusted_profit_days_in_row
+
+-- 30 YEAR VERSION --
+
+
+-- SELECT
+--   "Date"
+--, "Close"
+--, yoy_1
+--, yoy_2
+--, yoy_3
+--, yoy_4
+--, yoy_5
+--, yoy_6
+--, yoy_7
+--, yoy_8
+--, yoy_9
+--, yoy_10
+--, yoy_11
+--, yoy_12
+--, yoy_13
+--, yoy_14
+--, yoy_15
+--, yoy_16
+--, yoy_17
+--, yoy_18
+--, yoy_19
+--, yoy_20
+--, yoy_21
+--, yoy_22
+--, yoy_23
+--, yoy_24
+--, yoy_25
+--, yoy_26
+--, yoy_27
+--, yoy_28
+--, yoy_29
+--, yoy_30
+--, yoy_1_profit_days
+--, yoy_2_profit_days
+--, yoy_3_profit_days
+--, yoy_4_profit_days
+--, yoy_5_profit_days
+--, yoy_6_profit_days
+--, yoy_7_profit_days
+--, yoy_8_profit_days
+--, yoy_9_profit_days
+--, yoy_10_profit_days
+--, yoy_11_profit_days
+--, yoy_12_profit_days
+--, yoy_13_profit_days
+--, yoy_14_profit_days
+--, yoy_15_profit_days
+--, yoy_16_profit_days
+--, yoy_17_profit_days
+--, yoy_18_profit_days
+--, yoy_19_profit_days
+--, yoy_20_profit_days
+--, yoy_21_profit_days
+--, yoy_22_profit_days
+--, yoy_23_profit_days
+--, yoy_24_profit_days
+--, yoy_25_profit_days
+--, yoy_26_profit_days
+--, yoy_27_profit_days
+--, yoy_28_profit_days
+--, yoy_29_profit_days
+--, yoy_30_profit_days
+--, yoy_1y_profit_days_in_row
+--, yoy_2y_profit_days_in_row
+--, yoy_3y_profit_days_in_row
+--, yoy_4y_profit_days_in_row
+--, yoy_5y_profit_days_in_row
+--, yoy_6y_profit_days_in_row
+--, yoy_7y_profit_days_in_row
+--, yoy_8y_profit_days_in_row
+--, yoy_9y_profit_days_in_row
+--, yoy_10y_profit_days_in_row
+--, yoy_11y_profit_days_in_row
+--, yoy_12y_profit_days_in_row
+--, yoy_13y_profit_days_in_row
+--, yoy_14y_profit_days_in_row
+--, yoy_15y_profit_days_in_row
+--, yoy_16y_profit_days_in_row
+--, yoy_17y_profit_days_in_row
+--, yoy_18y_profit_days_in_row
+--, yoy_19y_profit_days_in_row
+--, yoy_20y_profit_days_in_row
+--, yoy_21y_profit_days_in_row
+--, yoy_22y_profit_days_in_row
+--, yoy_23y_profit_days_in_row
+--, yoy_24y_profit_days_in_row
+--, yoy_25y_profit_days_in_row
+--, yoy_26y_profit_days_in_row
+--, yoy_27y_profit_days_in_row
+--, yoy_28y_profit_days_in_row
+--, yoy_29y_profit_days_in_row
+--, yoy_30y_profit_days_in_row
+--, cpi -1 as cpi 
+--, cpi_2y -1 as cpi_2y 
+--, cpi_3y -1 as cpi_3y
+--, cpi_4y -1 as cpi_4y
+--, cpi_5y -1 as cpi_5y
+--, cpi_6y -1 as cpi_6y
+--, cpi_7y -1 as cpi_7y
+--, cpi_8y -1 as cpi_8y
+--, cpi_9y -1 as cpi_9y
+--, cpi_10y -1 as cpi_10y
+--, cpi_11y -1 as cpi_11y
+--, cpi_12y -1 as cpi_12y
+--, cpi_13y -1 as cpi_13y
+--, cpi_14y -1 as cpi_14y
+--, cpi_15y -1 as cpi_15y
+--, cpi_16y - 1 as cpi_16y
+--, cpi_17y - 1 as cpi_17y
+--, cpi_18y - 1 as cpi_18y
+--, cpi_19y - 1 as cpi_19y
+--, cpi_20y - 1 as cpi_20y
+--, cpi_21y - 1 as cpi_21y
+--, cpi_22y - 1 as cpi_22y
+--, cpi_23y - 1 as cpi_23y
+--, cpi_24y - 1 as cpi_24y
+--, cpi_25y - 1 as cpi_25y
+--, cpi_26y - 1 as cpi_26y
+--, cpi_27y - 1 as cpi_27y
+--, cpi_28y - 1 as cpi_28y
+--, cpi_29y - 1 as cpi_29y
+--, cpi_30y - 1 as cpi_30y
+--, real_yoy_1
+--, real_yoy_2
+--, real_yoy_3
+--, real_yoy_4
+--, real_yoy_5
+--, real_yoy_6
+--, real_yoy_7
+--, real_yoy_8
+--, real_yoy_9
+--, real_yoy_10
+--, real_yoy_11
+--, real_yoy_12
+--, real_yoy_13
+--, real_yoy_14
+--, real_yoy_15
+--, real_yoy_16
+--, real_yoy_17
+--, real_yoy_18
+--, real_yoy_19
+--, real_yoy_20
+--, real_yoy_21
+--, real_yoy_22
+--, real_yoy_23
+--, real_yoy_24
+--, real_yoy_25
+--, real_yoy_26
+--, real_yoy_27
+--, real_yoy_28
+--, real_yoy_29
+--, real_yoy_30
+--, real_yoy_1_profit_days
+--, real_yoy_2_profit_days
+--, real_yoy_3_profit_days
+--, real_yoy_4_profit_days
+--, real_yoy_5_profit_days
+--, real_yoy_6_profit_days
+--, real_yoy_7_profit_days
+--, real_yoy_8_profit_days
+--, real_yoy_9_profit_days
+--, real_yoy_10_profit_days
+--, real_yoy_11_profit_days
+--, real_yoy_12_profit_days
+--, real_yoy_13_profit_days
+--, real_yoy_14_profit_days
+--, real_yoy_15_profit_days
+--, real_yoy_16_profit_days
+--, real_yoy_17_profit_days
+--, real_yoy_18_profit_days
+--, real_yoy_19_profit_days
+--, real_yoy_20_profit_days
+--, real_yoy_21_profit_days
+--, real_yoy_22_profit_days
+--, real_yoy_23_profit_days
+--, real_yoy_24_profit_days
+--, real_yoy_25_profit_days
+--, real_yoy_26_profit_days
+--, real_yoy_27_profit_days
+--, real_yoy_28_profit_days
+--, real_yoy_29_profit_days
+--, real_yoy_30_profit_days
+--, real_yoy_1y_profit_days_in_row
+--, real_yoy_2y_profit_days_in_row
+--, real_yoy_3y_profit_days_in_row
+--, real_yoy_4y_profit_days_in_row
+--, real_yoy_5y_profit_days_in_row
+--, real_yoy_6y_profit_days_in_row
+--, real_yoy_7y_profit_days_in_row
+--, real_yoy_8y_profit_days_in_row
+--, real_yoy_9y_profit_days_in_row
+--, real_yoy_10y_profit_days_in_row
+--, real_yoy_11y_profit_days_in_row
+--, real_yoy_12y_profit_days_in_row
+--, real_yoy_13y_profit_days_in_row
+--, real_yoy_14y_profit_days_in_row
+--, real_yoy_15y_profit_days_in_row
+--, real_yoy_16y_profit_days_in_row
+--, real_yoy_17y_profit_days_in_row
+--, real_yoy_18y_profit_days_in_row
+--, real_yoy_19y_profit_days_in_row
+--, real_yoy_20y_profit_days_in_row
+--, real_yoy_21y_profit_days_in_row
+--, real_yoy_22y_profit_days_in_row
+--, real_yoy_23y_profit_days_in_row
+--, real_yoy_24y_profit_days_in_row
+--, real_yoy_25y_profit_days_in_row
+--, real_yoy_26y_profit_days_in_row
+--, real_yoy_27y_profit_days_in_row
+--, real_yoy_28y_profit_days_in_row
+--, real_yoy_29y_profit_days_in_row
+--, real_yoy_30y_profit_days_in_row
+
+-- FROM  inflation_adjusted_profit_days_in_row
+-- order by "Date"
+
+-- 5 YEAR JUMP VERSION
+
+--
+--SELECT  
+--    "Date",
+--    "Close",
+--    yoy_1,
+--    yoy_5,
+--    yoy_10,
+--    yoy_15,
+--    yoy_20,
+--    yoy_25,
+--    yoy_30,
+--    yoy_1_profit_days,
+--    yoy_5_profit_days,
+--    yoy_10_profit_days,
+--    yoy_15_profit_days,
+--    yoy_20_profit_days,
+--    yoy_25_profit_days,
+--    yoy_30_profit_days,
+--    yoy_1y_profit_days_in_row,
+--    yoy_5y_profit_days_in_row,
+--    yoy_10y_profit_days_in_row,
+--    yoy_15y_profit_days_in_row,
+--    yoy_20y_profit_days_in_row,
+--    yoy_25y_profit_days_in_row,
+--    yoy_30y_profit_days_in_row,
+--    cpi - 1 as cpi,
+--    cpi_5y - 1 as cpi_5y,
+--    cpi_10y - 1 as cpi_10y,
+--    cpi_15y - 1 as cpi_15y,
+--    cpi_20y - 1 as cpi_20y,
+--    cpi_25y - 1 as cpi_25y,
+--    cpi_30y - 1 as cpi_30y,
+--    real_yoy_1,
+--    real_yoy_5,
+--    real_yoy_10,
+--    real_yoy_15,
+--    real_yoy_20,
+--    real_yoy_25,
+--    real_yoy_30,
+--    real_yoy_1_profit_days,
+--    real_yoy_5_profit_days,
+--    real_yoy_10_profit_days,
+--    real_yoy_15_profit_days,
+--    real_yoy_20_profit_days,
+--    real_yoy_25_profit_days,
+--    real_yoy_30_profit_days,
+--    real_yoy_1y_profit_days_in_row,
+--    real_yoy_5y_profit_days_in_row,
+--    real_yoy_10y_profit_days_in_row,
+--    real_yoy_15y_profit_days_in_row,
+--    real_yoy_20y_profit_days_in_row,
+--    real_yoy_25y_profit_days_in_row,
+--    real_yoy_30y_profit_days_in_row
+--
+--FROM  
+--    inflation_adjusted_profit_days_in_row
+
+
+
+-- ACCUMULATED VERSION --
+
+SELECT
+   "Date"
+, ROUND(((yoy_1 + yoy_2 + yoy_3 + yoy_4 + yoy_5 + 5)/5)-1 ::NUMERIC,4) AS acc_5y_yoy
+, ROUND(((yoy_1 + yoy_2 + yoy_3 + yoy_4 + yoy_5 + yoy_6 + yoy_7 + yoy_8 + yoy_9 + yoy_10 + 10) / 10)-1 ::NUMERIC,4) AS acc_10y_yoy
+, ROUND(((yoy_1 + yoy_2 + yoy_3 + yoy_4 + yoy_5 + yoy_6 + yoy_7 + yoy_8 + yoy_9 + yoy_10 + yoy_11 + yoy_12 + yoy_13 + yoy_14 + yoy_15 + 15) / 15)-1 ::NUMERIC,4) AS acc_15y_yoy
+, ROUND(((yoy_1 + yoy_2 + yoy_3 + yoy_4 + yoy_5 + yoy_6 + yoy_7 + yoy_8 + yoy_9 + yoy_10 + yoy_11 + yoy_12 + yoy_13 + yoy_14 + yoy_15 + yoy_16 + yoy_17 + yoy_18 + yoy_19 + yoy_20 + 20) / 20)-1 ::NUMERIC,4) AS acc_20y_yoy
+, ROUND(((yoy_1 + yoy_2 + yoy_3 + yoy_4 + yoy_5 + yoy_6 + yoy_7 + yoy_8 + yoy_9 + yoy_10 + yoy_11 + yoy_12 + yoy_13 + yoy_14 + yoy_15 + yoy_16 + yoy_17 + yoy_18 + yoy_19 + yoy_20 + yoy_21 + yoy_22 + yoy_23 + yoy_24 + yoy_25 + 25) / 25)-1 ::NUMERIC,4) AS acc_25y_yoy
+, ROUND(((yoy_1 + yoy_2 + yoy_3 + yoy_4 + yoy_5 + yoy_6 + yoy_7 + yoy_8 + yoy_9 + yoy_10 + yoy_11 + yoy_12 + yoy_13 + yoy_14 + yoy_15 + yoy_16 + yoy_17 + yoy_18 + yoy_19 + yoy_20 + yoy_21 + yoy_22 + yoy_23 + yoy_24 + yoy_25 + yoy_26 + yoy_27 + yoy_28 + yoy_29 + yoy_30 + 30) / 30)-1 ::NUMERIC,4) AS acc_30y_yoy
+, ROUND(((real_yoy_1 + real_yoy_2 + real_yoy_3 + real_yoy_4 + real_yoy_5 + 5) / 5)-1 ::NUMERIC,4) AS acc_real_5y_yoy
+, ROUND(((real_yoy_1 + real_yoy_2 + real_yoy_3 + real_yoy_4 + real_yoy_5 + real_yoy_6 + real_yoy_7 + real_yoy_8 + real_yoy_9 + real_yoy_10 + 10) / 10)-1 ::NUMERIC,4) AS acc_real_10y_yoy
+, ROUND(((real_yoy_1 + real_yoy_2 + real_yoy_3 + real_yoy_4 + real_yoy_5 + real_yoy_6 + real_yoy_7 + real_yoy_8 + real_yoy_9 + real_yoy_10 + real_yoy_11 + real_yoy_12 + real_yoy_13 + real_yoy_14 + real_yoy_15 + 15) / 15)-1 ::NUMERIC,4) AS acc_real_15y_yoy
+, ROUND(((real_yoy_1 + real_yoy_2 + real_yoy_3 + real_yoy_4 + real_yoy_5 + real_yoy_6 + real_yoy_7 + real_yoy_8 + real_yoy_9 + real_yoy_10 + real_yoy_11 + real_yoy_12 + real_yoy_13 + real_yoy_14 + real_yoy_15 + real_yoy_16 + real_yoy_17 + real_yoy_18 + real_yoy_19 + real_yoy_20 + 20) / 20)-1 ::NUMERIC,4) AS acc_real_20y_yoy
+, ROUND(((real_yoy_1 + real_yoy_2 + real_yoy_3 + real_yoy_4 + real_yoy_5 + real_yoy_6 + real_yoy_7 + real_yoy_8 + real_yoy_9 + real_yoy_10 + real_yoy_11 + real_yoy_12 + real_yoy_13 + real_yoy_14 + real_yoy_15 + real_yoy_16 + real_yoy_17 + real_yoy_18 + real_yoy_19 + real_yoy_20 + real_yoy_21 + real_yoy_22 + real_yoy_23 + real_yoy_24 + real_yoy_25 + 25) / 25)-1::NUMERIC,4) AS acc_real_25y_yoy
+, ROUND(((real_yoy_1 + real_yoy_2 + real_yoy_3 + real_yoy_4 + real_yoy_5 + real_yoy_6 + real_yoy_7 + real_yoy_8 + real_yoy_9 + real_yoy_10 + real_yoy_11 + real_yoy_12 + real_yoy_13 + real_yoy_14 + real_yoy_15 + real_yoy_16 + real_yoy_17 + real_yoy_18 + real_yoy_19 + real_yoy_20 + real_yoy_21 + real_yoy_22 + real_yoy_23 + real_yoy_24 + real_yoy_25 + real_yoy_26 + real_yoy_27 + real_yoy_28 + real_yoy_29 + real_yoy_30 + 30) / 30)-1::NUMERIC,4) AS acc_real_30y_yoy
+
+
+FROM  inflation_adjusted_profit_days_in_row
+where real_yoy_5 is not null 
+order by "Date"
+
+
